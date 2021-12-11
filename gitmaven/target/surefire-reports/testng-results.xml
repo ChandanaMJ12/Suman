@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="21374" started-at="2021-12-09T11:20:07Z" finished-at="2021-12-09T11:20:28Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="21374" started-at="2021-12-09T11:20:07Z" finished-at="2021-12-09T11:20:28Z">
+      <class name="Test.maven_project.Registertest">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Test.maven_project.Registertest@6574b225]" name="Setup" is-config="true" duration-ms="17588" started-at="2021-12-09T16:50:07Z" finished-at="2021-12-09T16:50:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_01(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Test.maven_project.Registertest@6574b225]" name="TC_01" duration-ms="3444" started-at="2021-12-09T16:50:25Z" data-provider="TestData" finished-at="2021-12-09T16:50:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chandan@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_01 -->
+        <test-method status="PASS" signature="close()[pri:0, instance:Test.maven_project.Registertest@6574b225]" name="close" is-config="true" duration-ms="253" started-at="2021-12-09T16:50:28Z" finished-at="2021-12-09T16:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- Test.maven_project.Registertest -->
+      <class name="Test.maven_project.TC02test">
+        <test-method status="PASS" signature="chocolateshop()[pri:0, instance:Test.maven_project.TC02test@48eff760]" name="chocolateshop" duration-ms="16" started-at="2021-12-09T16:50:28Z" finished-at="2021-12-09T16:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chocolateshop -->
+        <test-method status="PASS" signature="icecreamshop()[pri:0, instance:Test.maven_project.TC02test@48eff760]" name="icecreamshop" duration-ms="0" started-at="2021-12-09T16:50:28Z" finished-at="2021-12-09T16:50:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- icecreamshop -->
+      </class> <!-- Test.maven_project.TC02test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
